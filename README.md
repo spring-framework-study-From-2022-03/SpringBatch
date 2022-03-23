@@ -1,48 +1,25 @@
 <h1 align="center">Spring Batch 스터디 CheckList</h1>
-
-<p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
-
-
-- 🌱 we are currently learning Spring Batch
-
-- ⚡ Don’t put off till tomorrow what you can do today.
-
+<p><img align="center" src="https://user-images.githubusercontent.com/58985553/159728753-3bd6a92b-ec76-4bba-a0d3-b110606e36c3.png"</img></p>
 <br>
-
-<h3 align="left">Spring Tools :</h3>
-<p align="left"> <a href="https://spring.io/projects/spring-batch" target="_blank" rel="spring Batch"> <img
+<h3 align="center">
+🌱 we are currently learning Spring Batch</br>
+⚡ Don’t put off till tomorrow what you can do today.
+</h3>
+<br>
+<h3 align="center">Spring Tools :</h3>
+<p align="center"> <a href="https://spring.io/projects/spring-batch" target="_blank" rel="spring Batch"> <img
       src="https://spring.io/images/batch-1ba11da84f16522be09ca25075d999de.svg"
-      alt="spring Batch" width="40" height="40" /> </a> </p>
+      alt="spring Batch" width="80" height="80" /> </a> </p>
 <br>
 
-<h3>a lecture to study :</h3>
-<p><img align="center"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=adam-pw&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
-    alt="adam-pw" 
-    bg_color=#808080/></p>
+<h1 align="center">매일 수강한 부분까지 날짜 표시 ✍ </h1>
+<div align="center">
+      
+      
+| 대분류 | 강의 제목 | 이주현 | 김기현 | 
+| :--:|:--:|:--:|:--:|
+| 강좌 소개 | 서론 |2022-03-24|날짜 적기|
+| 강좌 소개 | 목차/개발 환경 및 선수 지식 |2022-03-24|날짜 적기|
 
-<br>
-
-| 순번|추천 문제|문제 이름|솔브드 티어|알고리즘 태그|풀이 링크 |
-| :--:|:--:|:--:|:--:|:--:|:--:|
-| 00 ||[징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 01 ||[지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 02 ||[사칙연산](https://programmers.co.kr/learn/courses/30/lessons/1843)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 03 ||[단어 퍼즐](https://programmers.co.kr/learn/courses/30/lessons/12983)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 04 ||[무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 05 ||[도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 06 ||[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 07 ||[호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 08 ||[3 x n 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 09 ||[[카카오 인턴] 동굴 탐험](https://programmers.co.kr/learn/courses/30/lessons/67260)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 10 ||[매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 11 ||[블록 게임](https://programmers.co.kr/learn/courses/30/lessons/42894)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 12 ||[트리 트리오 중간값](https://programmers.co.kr/learn/courses/30/lessons/68937)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 13 ||[짝수 행 세기](https://programmers.co.kr/learn/courses/30/lessons/68647)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 14 ||[[3차] 자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 15 ||[지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 16 ||[쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 17 ||[선입 선출 스케줄링](https://programmers.co.kr/learn/courses/30/lessons/12920)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 18 ||[숫자 블록](https://programmers.co.kr/learn/courses/30/lessons/12923)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 19 ||[올바른 괄호의 갯수](https://programmers.co.kr/learn/courses/30/lessons/12929)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 20 ||[최적의 행렬 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12942)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
+      
+</div>
