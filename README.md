@@ -13,7 +13,6 @@
 <p align="left"> <a href="https://spring.io/projects/spring-batch" target="_blank" rel="spring Batch"> <img
       src="https://spring.io/images/batch-1ba11da84f16522be09ca25075d999de.svg"
       alt="spring Batch" width="40" height="40" /> </a> </p>
-
 <br>
 
 <h3>a lecture to study :</h3>
