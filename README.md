@@ -1,5 +1,7 @@
 <h1 align="center">Spring Batch 스터디 CheckList</h1>
-<p><img align="center" src="https://user-images.githubusercontent.com/58985553/159728753-3bd6a92b-ec76-4bba-a0d3-b110606e36c3.png"</img></p>
+<p> <a href="https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98#" target="_blank" rel="spring Batch" target="_blank"> 
+<img align="center" src="https://user-images.githubusercontent.com/58985553/159728753-3bd6a92b-ec76-4bba-a0d3-b110606e36c3.png"</img>
+      </a> </p>
 <br>
 <h3 align="center">
 🌱 we are currently learning Spring Batch</br>
@@ -7,9 +9,11 @@
 </h3>
 <br>
 <h3 align="center">Spring Tools :</h3>
-<p align="center"> <a href="https://spring.io/projects/spring-batch" target="_blank" rel="spring Batch"> 
-      <img src="https://spring.io/images/batch-1ba11da84f16522be09ca25075d999de.svg" href="https://spring.io/projects/spring-batch"
-      alt="spring Batch" width="80" height="80" /> </a> </p>
+<p align="center"> 
+      <a href="https://spring.io/projects/spring-batch" target="_blank" rel="spring Batch" target="_blank"> 
+      <img src="https://spring.io/images/batch-1ba11da84f16522be09ca25075d999de.svg" alt="spring Batch" width="80" height="80" /> 
+      </a> 
+</p>
 <br>
 
 <h1 align="center">매일 수강한 부분까지 날짜 표시 ✍ </h1>
