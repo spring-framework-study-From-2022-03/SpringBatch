@@ -1,1 +1,33 @@
+# 두개의 DB를 선택적으로 사용 (프로파일을 두개로 설정)
+
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    hikari:
+      jdbc-url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://locahost:3306/springbatch?userUnioncode=true&characterEncoding=utf8
+      username: root
+      password: rlgus585##
+      driver-class-name: com.mysql.jdbc.Driver
+  batch:
+    jdbc:
+      initialize-schema: always
 
