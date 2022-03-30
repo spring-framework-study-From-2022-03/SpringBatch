@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: h2
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/springbatch?serverTimezone=Asia/Seoul
+      username: root
+      password: 1234
+  batch:
+    jdbc:
+      initialize-schema: always
+
+---
+spring:
+  config:
+    activate:
+      on-profile: h2
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
