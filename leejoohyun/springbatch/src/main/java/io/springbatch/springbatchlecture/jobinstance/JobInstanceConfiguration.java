@@ -1,4 +1,4 @@
-package io.springbatch.springbatchlecture;
+package io.springbatch.springbatchlecture.jobinstance;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
@@ -14,15 +14,14 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @RequiredArgsConstructor
-public class JobConfiguration {
+public class JobInstanceConfiguration {
 
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
 
-    // ctrl alt B : 구현체 보기기
-   @Bean
+    @Bean
     public Job job(){
-        return jobBuilderFactory.get("job")
+        return jobBuilderFactory.get("instancejob")
                 .start(step1())
                 .next(step2())
                 .build();
@@ -30,16 +29,14 @@ public class JobConfiguration {
 
     @Bean
     public Step step1(){
-        return stepBuilderFactory.get("step1")
+        return   stepBuilderFactory.get("step1")
                 .tasklet(new Tasklet() {
                     @Override
                     public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) throws Exception {
-                        System.out.println("step1 was executed");
                         return RepeatStatus.FINISHED;
                     }
                 }).build();
     }
-
 
     @Bean
     public Step step2(){
@@ -47,7 +44,6 @@ public class JobConfiguration {
                 .tasklet(new Tasklet() {
                     @Override
                     public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) throws Exception {
-                        System.out.println("step2 was executed");
                         return RepeatStatus.FINISHED;
                     }
                 }).build();
